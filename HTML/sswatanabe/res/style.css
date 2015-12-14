@@ -11,18 +11,19 @@
 }
 
 
-h3,p,ul{margin:0;padding:0;}
+h3,p,ul{margin:0px;padding:0px;}
 
 body{
    background-image:url("washi1_01.jpg");
    background-attachment :fixed;
    font-size:150%;
+   margin-left:30px;
 }
 
 
 h3{ 
-   margin-top : 20;
-   padding-top: 10;
+   margin-top : 20px;
+   padding-top: 10px;
    border-bottom: dashed 5px;
    color  	 : #DC143C;
    display : inline-block;
@@ -32,3 +33,6 @@ h3{
    font-style:  normal;
 }
 
+ul{
+   margin-left:30px;
+}
