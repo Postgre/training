@@ -1,14 +1,34 @@
 @charset = "utf-8";
 
-h3,p{margin:0;padding:0;}
-
-h3{ 
-   margin-bottom : 1;
-   padding-bottom: 1;
-   color  	 : #00ffff;
+@font-face{
+   font-family:'Font';
+   src: url('dejima-mincho-r227.ttf');
+   font-weight: normal;
+   font-style:  normal;
 }
+.FontClass{
+  font-family:'Font';
+}
+
+
+h3,p,ul{margin:0;padding:0;}
 
 body{
-   background-image:url("ELLY863_washi14132906-thumb-1000xauto-18592.jpg");
-   background-attachment = "fixed"
+   background-image:url("washi1_01.jpg");
+   background-attachment :fixed;
+   font-size:150%;
 }
+
+
+h3{ 
+   margin-top : 20;
+   padding-top: 10;
+   border-bottom: dashed 5px;
+   color  	 : #DC143C;
+   display : inline-block;
+   font-family:'Font';
+   src: url('dejima-mincho-r227.ttf');
+   font-weight: normal;
+   font-style:  normal;
+}
+
