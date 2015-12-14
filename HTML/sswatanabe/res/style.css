@@ -1,0 +1,14 @@
+@charset = "utf-8";
+
+h3,p{margin:0;padding:0;}
+
+h3{ 
+   margin-bottom : 1;
+   padding-bottom: 1;
+   color  	 : #00ffff;
+}
+
+body{
+   background-image:url("ELLY863_washi14132906-thumb-1000xauto-18592.jpg");
+   background-attachment = "fixed"
+}
