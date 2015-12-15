@@ -1,0 +1,43 @@
+@charset = "utf-8";
+
+@font-face{
+   font-family:'Font';
+   src: url('dejima-mincho-r227.ttf');
+   font-weight: normal;
+   font-style:  normal;
+}
+.FontClass{
+  font-family:'Font';
+}
+
+
+h3,p,ul{margin:0px;padding:0px;}
+
+body{
+   background-image:url("washi1_01.jpg");
+   background-attachment :fixed;
+   font-size:150%;
+   margin-left:30px;
+}
+
+h1{
+   margin-top : 40px;
+   margin-bottom : 0px;
+   font-size:200%;
+}
+
+h3{ 
+   margin-top : 20px;
+   padding-top: 10px;
+   border-bottom: dashed 5px;
+   color  	 : #DC143C;
+   display : inline-block;
+   font-family:'Font';
+   src: url('dejima-mincho-r227.ttf');
+   font-weight: normal;
+   font-style:  normal;
+}
+
+ul{
+   margin-left:30px;
+}
