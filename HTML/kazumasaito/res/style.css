@@ -1,0 +1,43 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+body {
+	background-image:url(378103724_7c2c986acc_o.jpg);
+}
+
+.aka {
+	color:#FFF;
+	font-size:36px;
+}
+
+.font {
+	font-family:"ＭＳ Ｐ明朝", serif;
+}
+
+.gyoukan {
+	line-height:35px;
+	font-size:22px;
+	color: #666;
+}
+
+header {
+	background-color:#11F;
+}
+
+#sidenavi {
+	background-color:#F93;
+}
+
+footer {
+	background-color:#3CF;
+}
+
+.midashi {
+	color:#999;
+	font-size:40px;
+	border-left:solid 5px #9FD6D2;
+	padding:5px 0px 5px 20px;
+	margin-bottom:20px;　
+	background-color:#CCC;
+}

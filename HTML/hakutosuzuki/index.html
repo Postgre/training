@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<!-- @author hakutosuzuki -->
+<!-- @since 2015/12/10 -->
+<head>
+    <title>My Profile</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="res/css/kube.min.css" />
+    <link rel="stylesheet" href="res/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="res/css/custom.min.css" />
+    <link rel="shortcut icon" href="res/img/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'hakutosuzuki';
+		}
+	</style>
+
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">hakutosuzuki</span>
+				</div>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="res/img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>About Me<br><span id="typed"></span></h1>
+				</div>
+				<p><h2>
+					①.好きな言語<br>
+					②.好きな理由<br>
+					③.趣味<br>
+					④.ひとこと</h2>
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Javascript -->
+	<script src="res/js/jquery.min.js"></script>
+	<script src="res/js/typed.min.js"></script>
+    <script src="res/js/kube.min.js"></script>
+    <script src="res/js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["①最近流行りのSwiftです。その理由は2つあります。", "②型推論ができる為、誰でも簡単に扱えるから、\rもう1つは自分がミーハーだからです。笑", "③NBA観戦をすることです。\rリフレッシュとして週に2回は必ず観ています！","④今年はウォリアーズが強い！なんとシーズン開幕24連勝を叩き出しNBAの歴史を塗り替えたチームなんです！(去年までは15連勝がNBA全体での最長記録でした)\rその勢いを自身に反映させ、猪突猛進のごとく何事もひたむきに突っ走っていきます！"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
